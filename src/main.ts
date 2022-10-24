@@ -3,7 +3,8 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
-
+import { registerLicense } from '@syncfusion/ej2-base';
+registerLicense('ORg4AjUWIQA/Gnt2VVhjQlFaclhJXGJWfFBpR2NbfU55flVOal9YVAciSV9jS3xSdkdnWXZfc3dQQWZfUQ==');
 if (environment.production) {
   enableProdMode();
 }
